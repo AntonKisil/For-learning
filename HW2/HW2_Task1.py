@@ -20,7 +20,13 @@ Namespaces are one honking great idea -- let's do more of those!"""
 amount_better=zen_of_python.count('better')
 amount_never=zen_of_python.count('never')
 amount_is=zen_of_python.count('is')
-print(f'Zen of Python contains:\n\
+print(f'Записати в стрічку філософію Пайтона\n\
+- Знайти в заданій стрічці кількість:\n\
+Zen of Python contains:\n\
 {amount_better} words "better"\n\
 {amount_never} words "never"\n\
 {amount_is} words "is"')
+print(f'\n- Вивести весь текст у верхньому регістрі:\n\
+{zen_of_python.upper()}')
+print(f'\n- Замінити всі входження символу “і” на “&”:\n\
+{zen_of_python.replace("i","&")}')
